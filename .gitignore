@@ -1,0 +1,6 @@
+WORKSPACE
+__pycache__/
+bazel-bin
+bazel-out
+bazel-python
+bazel-testlogs
