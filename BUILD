@@ -1,9 +1,14 @@
 py_binary(
     name = "dataclass_simple",
-    srcs = ['dataclass_simple.py']
+    srcs = ['src/dataclass_simple.py']
 )
 
 py_binary(
     name = "typing_example",
-    srcs = ["typing_example.py"]
+    srcs = ["src/typing_example.py"]
+)
+
+py_binary(
+    name = "merge_sort_example",
+    srcs = ["src/merge_sort_example.py"]
 )
